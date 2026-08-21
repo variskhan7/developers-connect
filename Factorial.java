@@ -5,8 +5,13 @@ public class Factorial {
         int n, fact=1;
         System.out.println("enter a number to find factorial");
         n=sc.nextInt();
-        for(int i=1 ;i<=n;i++){
-        fact=fact*i;}
+        if (n>0){
+            for(int i=1 ;i<=n;i++){
+                fact=fact*i;}
+        }
+        else{
+            System.out.println("cannot be calculate");
+        }
         System.out.println(fact);
     }
     
