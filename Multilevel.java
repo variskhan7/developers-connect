@@ -1,3 +1,4 @@
+
 class A{
     String name;
     
@@ -5,7 +6,8 @@ class A{
     {
         this.name=n;
 
-        System.out.println("my name is "+name );
+        System.out.println("enter your name" );
+        
     }
 }
 
